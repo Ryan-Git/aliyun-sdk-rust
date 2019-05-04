@@ -1,0 +1,17 @@
+[package]
+name = "aliyun-sdk-rust"
+version = "0.1.0"
+authors = ["renhongdi <ryan.hd.ren@gmail.com>"]
+edition = "2018"
+keywords = ["aliyun", "alicloud", "sdk"]
+
+[dependencies]
+reqwest = "0.9"
+serde = {version = "1.0", features = ["derive"]}
+serde_json = "1.0"
+rust-crypto = "0.2"
+base64 = "0.10"
+rand = "0.6"
+failure = "0.1"
+chrono = {version = "0.4", features=["serde"]}
+url = "1.7"
