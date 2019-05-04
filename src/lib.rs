@@ -1,5 +1,5 @@
 pub use client::*;
 
 mod client;
-mod sms;
+pub mod sms;
 
