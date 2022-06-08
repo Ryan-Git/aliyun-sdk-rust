@@ -98,3 +98,10 @@ fn sign<S: Into<String>>(key: S, body: &str) -> String {
     let code = result.code();
     base64::encode(code)
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::sms::sign;
+    use crate::*;
+    use std::collections::HashMap;
+}
